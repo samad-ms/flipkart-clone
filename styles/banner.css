@@ -1,0 +1,32 @@
+.banner-area{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.banner-img{
+    width: 1249px;
+    height: 280px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.banner-nav-button-right
+,.banner-nav-button-left{
+    position: absolute;
+    top: 98px;
+    width: 47px;
+    height: 104px;
+    border-width: 0px;
+    border-radius: 2px;
+}
+.banner-nav-button-right{
+    left: 7px;
+}
+.banner-nav-button-left{
+    right: 7px;
+}
+.arrow{
+    height: 23px;
+}

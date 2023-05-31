@@ -1,0 +1,108 @@
+.header{
+    background-color:#2874f0;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    white-space: nowrap;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+}
+.left-section{
+    display: flex;
+    padding-left: 185px;
+}
+
+.flipkart-head-icon-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.head-icon{
+    margin-top: -1px;
+    margin-bottom: 1px;
+    height: 20px;
+    width: 75px;
+}
+.head-icon-text{
+    font-family: Roboto , Arial;
+    font-size: 11px;
+    font-style: italic;
+    margin-top: -1px;
+    color: white;
+}
+.plus{
+    color:#ffe500;
+    font-weight: 700;
+}
+
+
+.middle-section{
+    flex: 1;
+    display:flex;
+    align-items: center;
+}
+.search-bar{
+    flex: 1;
+    height: 35px;
+    width: 0;
+    border: 0px solid white;
+    border-radius: 2px;
+    padding-left: 16px;
+    max-width: 300px;
+    margin-left: 14px;
+    min-width: 245px;
+}
+.search-button{
+    height: 36px;
+    width: 41px;
+    border-width: 0px;
+    background-color: white;
+    margin-left: -1px;
+}
+.search-button img{
+    height: 20px;
+    width: 20px;
+}
+.login-button{
+    color: #2874f0;
+    font-weight: 700;
+    font-size: 15px;
+    background-color: #fff;
+    cursor: pointer; 
+    border-radius: 2px;
+    height: 32px;
+    border: 1px solid #dbdbdb;   
+    width: 120px;    
+    margin-left: 16px;
+}
+
+
+.right-section{
+    flex: .85;    
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.head-texts{
+    line-height: 20px;
+    font-size: 16px;
+    letter-spacing: .1px;
+    font-family: Roboto ;
+    font-weight: 500;
+    color: white;
+    font-size: 16px;
+    margin-right: 28px;
+}
+.bottom-arrow-icon{
+    width: 8px;
+    margin-left: -24px;
+    margin-right: 45px;
+}
+.cart-icon{
+    height: 20px;
+    
+    
+}
